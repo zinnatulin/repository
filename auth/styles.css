@@ -1,0 +1,131 @@
+@font-face{
+	font-family: "IACfont";
+	src: url(fonts/IAC-regular.otf);
+}
+
+@font-face{
+	font-family: "IAC-Bold";
+	src: url(fonts/IAC-Bold.otf);
+}
+
+@font-face{
+	font-family: "IAC-Light";
+	src: url(fonts/IAC-Light.otf);
+}
+
+body{
+	background-color: #507d94 !important;
+}
+
+.main-logo-ru{
+	background: url("images/iac-bitrix.png") no-repeat left top !important;
+	height: 136px !important;
+	width: 400px !important;
+}
+
+.log-main-table{
+	background: url("images/login-bg-pic.png") no-repeat center top/1191px !important;
+}
+
+.bx-title{
+	margin: 0px 0px 25px 0px;
+	height: auto;
+}
+
+.bx-authform{
+	font-family: "IAC-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+	font-size: 25pt;
+	margin: 0px;
+}
+
+.bx-authform-label-container{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #507d94;
+	padding-bottom: 6px;
+}
+
+.bx-filter-param-text{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	position: relative;
+	bottom: 1px;
+}
+
+.bx-filter-param-label{
+	position: relative;
+	bottom: 20px;
+}
+
+div.block_additional_inf{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	position: relative;
+	left: 140px;
+	bottom: 37px;
+	color: #666666;
+}
+
+.log-popup-caption{
+	display: none !important;
+}
+
+div#login-popup.log-popup{
+	height: fit-content;
+	width: 500px;
+	padding: 30px 30px 30px;
+}
+
+.log-popup a{
+	color: #c5765d !important;
+}
+
+.bx-authform-formgroup-container:nth-last-child(2){
+	margin-bottom: 0px;
+}
+
+.bx-authform-formgroup-container:last-child{
+	margin-bottom: 0px;
+	height: 45px;
+}
+
+.bx-authform-formgroup-container input[type=submit]:hover {
+	background: #E5886E;
+}
+
+.bx-authform-formgroup-container input[type=submit]:active {
+	background: #945B48;
+}
+
+.bx-authform-formgroup-container input[type=submit] {
+	background: #c5765d;
+	color: #fff;
+	display: inline-block;
+	outline: none !important;
+	border: 0;
+	vertical-align: middle;
+	text-decoration: none;
+	cursor: pointer;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border-radius: 20px;
+	padding: 0 30px;
+	height: 42px;
+	line-height: 42px;
+	font-size: 21px!important;
+	-webkit-appearance: none;
+}
+
+.bx-authform-link-container, .bxe-light {
+	display: none;
+}
+
+div.alert-danger{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+
+.bx-authform .bx-authform-input-container input[type="text"],
+.bx-authform .bx-authform-input-container input[type="password"] {
+    font-size: 16px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
