@@ -1,4 +1,4 @@
-﻿<?
+﻿<?php
 $data = array(
 array('ID'=>100, 'PARENT_ID' => 0, 'NAME'=> 'Пункт 1',),
 array('ID'=>2, 'PARENT_ID' => 0, 'NAME'=> 'Пункт 2',),
@@ -30,4 +30,6 @@ array('ID'=>27, 'PARENT_ID' => 19, 'NAME'=> 'Пункт 3.1.1',),
 array('ID'=>28, 'PARENT_ID' => 19, 'NAME'=> 'Пункт 3.1.2',),
 array('ID'=>1, 'PARENT_ID' => 20, 'NAME'=> 'Пункт 3.2.1',),
 array('ID'=>30, 'PARENT_ID' => 1, 'NAME'=> 'Пункт 3.2.1.1'));
+
+
 ?>
