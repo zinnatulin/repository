@@ -6,7 +6,7 @@ require("./tree.php");
         <title>Тест</title>
     </head>
     <body>
-    <?php print 'hello!';
+    <?php
     echo 'вывожу массив';
     sort($data, $data[0]['PARENT_ID']);
     ?><ul><?php
