@@ -1,4 +1,10 @@
 /* Slider */
+body{
+
+}
+.lazy_slider{
+    width: 300px;
+}
 .slick-slider
 {
     position: relative;
