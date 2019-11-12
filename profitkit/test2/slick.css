@@ -1,9 +1,8 @@
 /* Slider */
-body{
-
-}
 .lazy_slider{
-    width: 300px;
+    height: 204px;
+    width: 200px;
+    border: 2px solid black;
 }
 .slick-slider
 {
