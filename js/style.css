@@ -1,9 +1,8 @@
 #progress-line{
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     display: block;
     background-color: green;
     height: 3px;
-    width: 5%;
 }
