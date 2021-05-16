@@ -1,0 +1,1 @@
+select u.login, o.name, o.status from 'users' u inner join 'objects' o on u.id=o.id;
